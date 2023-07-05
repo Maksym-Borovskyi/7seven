@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="none" />
+    <title>7seven</title>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__container">
+          <div class="header__body">
+            <div class="header__main">
+              <button class="icon-menu">
+                <span></span>
+              </button>
+              <a href="/" class="header__logo">
+                <img
+                  src="/assets/logo.svg"
+                  alt="logo 7seven"
+                  class="header__logo logo"
+                />
+              </a>
+              <div class="header__menu menu">
+                <nav class="menu__body">
+                  <ul class="menu__list">
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Про нас</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Як замовити?</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Наші роботи</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Продаж LED освітлення</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Дилерам</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Дилерам</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Блог</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Контакти</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__actions actions-header">
+                <div class="actions-header__lang">
+                  <span class="lang">UA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero-image">
+      <div class="hero-image__wrapper">
+        <div class="hero-image__content content container">
+          <h1 class="content__heading">
+            Натяжні стелі високої якості від виробника
+          </h1>
+          <p class="content__description">
+            Привіт. Ми арт-студія Seven. Ми створимо гарний та практичний
+            варіант натяжної стелі для твого інтер’єру.
+          </p>
+          <div class="content__bubble bubble">
+            <div
+              class="bubble__phone_wrapper bubble__action"
+              onclick="document.querySelector('.bubble__shape').click();"
+            >
+              <img
+                class="bubble__phone"
+                src="/assets/phone.svg"
+                alt="Icon Contact"
+              />
+            </div>
+            <button
+              type="button"
+              class="bubble__shape bubble__action"
+              onclick="console.log('phone')"
+            >
+              Залишити заявку
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__body">
+          <div class="footer__logo">
+            <a href="/" class="">
+              <img src="/assets/logo.svg" class="logo" alt="Логотип 7seven" />
+            </a>
+          </div>
+          <div class="footer__column menu-footer">
+            <a href="#" class="menu-footer__title footer-title">Компанія</a>
+            <ul class="menu-footer__list">
+              <li><a href="/" class="menu-footer__link">Про нас</a></li>
+              <li><a href="/" class="menu-footer__link">Блог</a></li>
+              <li><a href="/" class="menu-footer__link">Контакти</a></li>
+              <li><a href="/" class="menu-footer__link">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer__column menu-footer">
+            <a href="#" class="menu-footer__title footer-title">Клієнтам</a>
+            <ul class="menu-footer__list">
+              <li><a href="/" class="menu-footer__link">Як замовити?</a></li>
+              <li><a href="/" class="menu-footer__link">Наші роботи</a></li>
+              <li><a href="/" class="menu-footer__link">Дилерам</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column contact-footer">
+            <h3 class="contact-footer__title footer-title">
+              Контактна інформація
+            </h3>
+            <ul class="contact-footer__list">
+              <li>
+                <a href="mailto:seven7@gmail.com" class="contact-footer__link"
+                  >seven7@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380964544444" class="contact-footer__link"
+                  >+38 096 454 44 44</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column contact-footer">
+            <h3 class="contact-footer__title footer-title">Ми в соцмережах:</h3>
+            <ul class="contact-footer__list socials">
+              <li>
+                <a href="/" target="_blank" class="contact-footer__link"
+                  ><img src="/assets/icon-instagram.svg" alt="Icon Instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="/" target="_blank" class="contact-footer__link"
+                  ><img src="/assets/icon-facebook.svg" alt="Icon Facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="/" target="_blank" class="contact-footer__link"
+                  ><img src="/assets/icon-telegram.svg" alt="Icon Telegram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p class="footer__copyright_text">
+            © 2020 Арт-студія 7seven. Всі права захищені
+          </p>
+          <img src="/assets/copyright.svg" alt="copyright icon" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
