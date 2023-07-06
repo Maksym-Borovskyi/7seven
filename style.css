@@ -335,7 +335,7 @@ button {
 .hero-image__wrapper {
     background-image: linear-gradient(rgba(35, 38, 49, 0.6),
             rgba(35, 38, 49, 0.6)),
-        url("/assets/hero-image.webp");
+        url("assets/hero-image.webp");
     height: calc(900 * 100vw / 1920);
     background-position: center;
     background-repeat: no-repeat;
@@ -347,7 +347,7 @@ button {
     .hero-image__wrapper {
         background-image: linear-gradient(rgba(35, 38, 49, 0.6),
                 rgba(35, 38, 49, 0.6)),
-            url("/assets/hero-image-mob.webp");
+            url("assets/hero-image-mob.webp");
         height: 600px;
     }
 }
@@ -489,7 +489,7 @@ button {
 .advantages__image::after {
     content: '';
     position: absolute;
-    background-image: url(/assets/pen.png);
+    background-image: url(assets/pen.png);
     top: 0;
     left: 0;
     height: 320px;
