@@ -21,8 +21,10 @@
     --bg1-color: rgba(20, 21, 24, 0.2);
     --bg2-color: #141518;
     --bg3-color: #979797;
+    --bg4-color: #F9F9FA;
     --text2-color: #fff;
     --text3-color: #9797a2;
+    --text4-color: #E9E9F0;
     --container: 1170px;
   }
   *,
@@ -88,6 +90,23 @@
     color: var(--text3-color);
     font-size: 18px;
     line-height: 26px;
+  }
+  .btn{
+    width: max-content;
+    padding: 0 37px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: var(--text2-color);
+    background-color: var(--bg2-color);
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--text1-color);
+  }
+  .btn:hover{
+    background-color: var(--bg4-color);
+    color: var(--text1-color);
   }
   @media (min-width: 1125px) {
     .icon-menu {
@@ -382,6 +401,9 @@
   }
   /* hero-image */
   /* advantages */
+  .advantages{
+    background-color: var(--bg4-color);
+  }
   .advantages__header {
     max-width: 555px;
   }
@@ -472,6 +494,91 @@
     }
   }
   /* advantages */
+  /* stages */
+  .stages__container{
+    padding: 120px 15px;
+  }
+  .stages__body{
+    display: flex;
+    gap: 98px;
+  }
+  .stages__main{
+    max-width: 292px;
+  }
+  .stages__description{
+    margin-bottom: 56px;
+  }
+  .stages__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .item-stage{
+    background-color: var(--bg4-color);
+    width: 360px;
+    height: 360px;
+    padding: 30px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .item-stage__number{
+    color: var(--text4-color);
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -1px;
+  }
+  .item-stage__top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .item-stage__body{
+    max-width: 262px;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 40px;
+  }
+  .item-stage__title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .item-stage__description{
+    color: var(--text1-color);
+    font-size: 16px;
+    line-height: 24px;
+  }
+  @media (max-width: 768px) {
+    .stages__container{
+        padding: 60px 15px;
+    }
+    .item-stage {
+        width: 320px;
+        height: 320px;
+    }      
+  }
+  @media (max-width: 1170px) {
+    .stages__body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .stages__description{
+        max-width: 635px;
+    }
+    .stages__main {
+        max-width: 100%;
+        text-align: center;
+    }
+    .stages__items {
+        justify-content: center;
+    }
+  }
+  /* stages */
   /* footer */
   .footer-title {
     font-size: 16px;
