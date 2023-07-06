@@ -426,7 +426,7 @@
   .advantages__image::after {
     content: "";
     position: absolute;
-    background-image: url(/assets/pen.webp);
+    background-image: url("assets/pen.webp");
     top: 61px;
     left: -160px;
     height: 320px;
