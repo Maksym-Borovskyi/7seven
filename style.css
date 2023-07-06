@@ -426,11 +426,13 @@
   .advantages__image::after {
     content: "";
     position: absolute;
-    background-image: url(/assets/pen.png);
+    background-image: url(/assets/pen.webp);
     top: 0;
     left: 0;
     height: 320px;
     width: 320px;
+    background-position: center;
+    background-size: contain;
   }
   .advantages__image img {
     width: 273px;
