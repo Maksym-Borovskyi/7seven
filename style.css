@@ -291,7 +291,7 @@
         rgba(35, 38, 49, 0.6),
         rgba(35, 38, 49, 0.6)
       ),
-      url("/assets/hero-image.webp");
+      url("assets/hero-image.webp");
     height: calc(900 * 100vw / 1920);
     background-position: center;
     background-repeat: no-repeat;
@@ -304,7 +304,7 @@
           rgba(35, 38, 49, 0.6),
           rgba(35, 38, 49, 0.6)
         ),
-        url("/assets/hero-image-mob.webp");
+        url("assets/hero-image-mob.webp");
       height: 600px;
     }
   }
