@@ -456,6 +456,10 @@
       display: block;
       margin: 15px auto auto;
     }
+    .advantages__image::after {
+        top: 73px;
+        left: -116px;
+    }
     .advantages__items {
       justify-content: center;
     }
